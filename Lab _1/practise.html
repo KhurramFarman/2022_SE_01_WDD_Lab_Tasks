@@ -1,0 +1,99 @@
+<!-- This File contains Practise Table -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Practise 1 - Tables</title>
+    <style>
+        table{
+            margin: 0 auto;
+        }
+        table, th, tr, td {
+            border: 1px solid #c2cfd9;
+            border-collapse: collapse;
+            padding: 10px 20px;
+            font-family: sans-serif;
+        }
+        /* table{
+            width: 40vw;
+        } */
+        thead{
+            background-color: #d2e2ef;
+        }
+        .rating{
+            background-color: #ebf3f9;
+        }
+        .vertical_align{
+            vertical-align: baseline;
+        }
+        /* .width_adjustment{
+            width: 100%;
+        }
+        .width_adjustment :nth-child(1){
+            width: 15%;
+        }
+        .width_adjustment :nth-child(2){
+            width: 38%;
+        } */
+    </style>
+</head>
+<body>
+    <Table>
+        <thead>
+            <tr class="width_adjustment">
+                <td >Country</td>
+                <td>Film title</td>
+                <td>Released</td>
+                <td>Votes</td>
+                <td>Rating</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="vertical_align" rowspan="3">USA</td>
+                <td>The Shawshanks Redemption</td>
+                <td>1994</td>
+                <td>678790</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>The God Father</td>
+                <td>1972</td>
+                <td>511495</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>The God Father:Part II</td>
+                <td>1974</td>
+                <td>319352</td>
+                <td>9</td>
+            </tr>
+            <tr class="rating">
+                <td colspan="4">Highest Rating</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td class="vertical_align" rowspan="2">Italy</td>
+                <td>The Good, the Bad and the Ugly</td>
+                <td>1966</td>
+                <td>213030</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <td>The Star Maker</td>
+                <td>1995</td>
+                <td>164558</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr class="rating" >
+                <td colspan="4">Highest Rating</td>
+                <td>8.9</td>
+            </tr>
+        </tbody>
+    </Table>
+</body>
+</html>
