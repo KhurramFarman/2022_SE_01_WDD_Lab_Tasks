@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task - 2</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', 'sans-serif';
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .nav {
+            width: 80%;
+            margin: 0 auto;
+            height: 10vh;
+            padding-top: 20px;
+        }
+
+        .nav div {
+            float: left;
+        }
+
+        .logo {
+            width: 25%;
+            text-align: left;
+            margin-top: 5px;
+        }
+
+        .logo img{
+            margin-left: 35px;
+        }
+
+        .nav_buttons {
+            width: 50%;
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 10px 15px;
+            /* padding-left: 40px; */
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .nav_buttons ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav_buttons ul li {
+            list-style: none;
+            float: left;
+            margin: 0 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .nav_buttons ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav_buttons ul li:nth-child(1) a {
+            background-color: #ff8a39;
+            color: white !important;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .contact_button {
+            width: 25%;
+            text-align: right;
+            margin-top: 5px;
+            padding-right: 35px;
+            box-sizing: border-box;
+        }
+
+        .contact_button button {
+            background-color: black;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+        }
+
+        .main {
+            background-color: #f5f5dc;
+        }
+
+       
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 80px;
+            overflow: hidden; /* important to clear floats */
+        }
+
+        .content {
+            width: 55%;
+            float: left;
+            margin-top: 30px;
+        }
+
+        .h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-right: 150px;
+            line-height: 1.2;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 30px;
+            margin-right: 150px;
+        }
+
+        .content button {
+            background-color: #ff8a39;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .image {
+            width: 40%;
+            float: right;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .section2{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 80px;
+            padding: 50px 150px;
+            font-size: 40px;
+        }
+
+        .location{
+            width: 50%;
+            float: left;
+            height: 550px;
+        }
+
+        .contact{
+            width: 50%;
+            float: right;
+            height: 550px;
+            background-color: #f5f5dc;
+
+        }
+
+        .contact h2{
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+
+        .contact p{
+            margin-right: 120px;
+            margin-left: 40px;
+        }
+
+        .contact .feild{
+            margin: 25px;
+            margin-left: 40px;
+        }
+
+        .feild input{
+            padding: 5px 10px;
+            width: 450px;
+            margin-top: 5px;
+        }
+
+        .feild label{
+            /* font-size: 20px; */
+            font-weight: bold;
+        }
+
+        .feild button{
+            background-color: #ff8a39;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius:10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            clear: both;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo.png" height="20" alt="Powre Pixel Logo">
+        </div>
+
+        <!--Navigation Buttons  -->
+        <div class="nav_buttons">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lectures</a></li>
+                <li><a href="#">Labs</a></li>
+                <li><a href="#">Student Work</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Button -->
+        <div class="contact_button">
+            <button>Contact</button>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <section class="container">
+
+            <div class="content">
+                <h1 class="h1">
+                    Welcome to Our Class Web Portal
+                </h1>
+                <p class="">
+                    This site is the part of our practical learning journey in the web devlopment. Here, students learn
+                    Html, CSS (including floats), forms, and responsive design by building and contributing to this
+                    paltform.
+                </p>
+                <button>Start Exploring</button>
+            </div>
+
+            <div class="image">
+                <img width="100%" src="hero-image.jpg" alt="3 persons are discussing on project">
+            </div>
+
+        </section>
+
+        <section class="section2">
+            <p>This is not just a website - it is a learning journey. Here student document what they lean and build.</p>
+        </section>
+
+        <section class="section3">
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6585.242474864141!2d73.46691552715919!3d34.38555248715161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e09e2ad889f093%3A0xa4bad6a4e55519c7!2sDepartment%20of%20Software%20Engineering%20Uajk!5e0!3m2!1sen!2s!4v1745741418048!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact">
+                <h2>Get in Touch with the Instructor</h2>
+                <p>Have question about lectures, labs, or assignmentS? Use the foem below to contact your instructor or TA. We are here to support your learning journey</p>
+                <form action="function.php">
+
+                    <div class="feild">
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="feild">
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="feild">
+                        <label for="tel">Tel:</label>
+                        <br>
+                        <input type="text" name="tel" id="tel" required>
+                    </div>
+                    <div class="feild">
+                        <label for="message">Message:</label>
+                        <br>
+                        <input type="text" id="message" name="message" required>
+                    </div>
+                    <div class="feild">
+                        <button class="submit_button" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            
+            </section>
+    </div>
+
+    <footer>
+        <p>All rights reserved &copy;2025 </p>
+    </footer>
+</body>
+
+</html>
