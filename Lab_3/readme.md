@@ -27,7 +27,7 @@ The primary objective of this lab is to build a responsive web layout using **CS
 
 You can view the lab task live using the link below:
 
-👉 [**View Lab Task 3**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_3/Lab_Task_3.html)
+👉 [**View Lab Task 3**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_3/index.html#)
 
 ---
 
