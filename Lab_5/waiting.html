@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 5</title>
+    <style>
+        .animation_container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .animated_box1 {
+            width: 70px;
+            height: 70px;
+            background-color: red;
+            border-radius: 50%;
+            animation: moveBox1 2s linear infinite alternate;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        .animated_box2 {
+            width: 70px;
+            height: 70px;
+            background-color: green;
+            border-radius: 50%;
+            animation: moveBox2 2s 1s linear infinite alternate;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        .animated_box3 {
+            width: 70px;
+            height: 70px;
+            background-color: Blue;
+            border-radius: 50%;
+            animation: moveBox3 3s linear 2s infinite alternate;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        @keyframes moveBox1 {
+            0%{
+                transform: translate(0, 0);
+            }
+            100%{
+                transform: translate(0px, -100px);
+                opacity: .5;
+            }
+        }
+        @keyframes moveBox2 {
+            0%{
+                transform: translate(0, 0);
+            }
+            100%{
+                transform: translate(0px, -100px);
+                opacity: .5;
+            }
+        }
+        @keyframes moveBox3 {
+            0%{
+                transform: translate(0, 0);
+            }
+            100%{
+                transform: translate(0px, -100px);
+                opacity: .5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation_container">
+        <div class="animated_box1">
+
+        </div>
+        <div class="animated_box2">
+
+        </div>
+        <div class="animated_box3">
+
+        </div>
+    </div>
+    
+</body>
+</html>
