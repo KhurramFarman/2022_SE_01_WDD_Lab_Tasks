@@ -1,21 +1,25 @@
-# Lab Task 4 – Web Design and Development (WDD)
+# Lab Task 3 – Web Design and Development (WDD)
 
-This repository contains **Lab Task 4** for the *Web Design and Development (WDD)* course. The task involves creating a a layout using **CSS Grid** with clean **HTML** and **CSS**.
+This repository contains **Lab Task 3** for the *Web Design and Development (WDD)* course. The task involves converting a given **Client Ramp template** into a responsive website using **Flexbox layout only** with **HTML** and **CSS**.
 
 ---
 
 ## 📝 Task Overview
 
-The primary goal of this lab is to practice and implement **CSS Grid layout** for precise and responsive page design. This task expands upon the knowledge gained from Flexbox by introducing **2D layout structures** and more advanced layout control.
+The primary objective of this lab is to build a responsive web layout using **CSS Flexbox**, based on the provided **Client Ramp design template**. This lab builds on the previous knowledge of float-based layouts by transitioning into more modern CSS layout techniques.
 
 ### Key Concepts Covered:
 
-- Structuring a web layout using **CSS Grid**
-- Creating responsive layouts by combining:
-  - Grid containers and grid items
-  - Template rows and columns
-  - Grid areas, start/end lines, and gaps
-- Applying **external CSS** for modular and clean styling
+- Structuring a webpage using **Flexbox layout** (no float/grid)
+- Recreating the Client Ramp layout using semantic HTML elements
+- Designing responsive sections such as:
+  - Header and Navigation Bar
+  - Hero Section
+  - Support Section
+  - Subscription Plans Section
+  - Footer Section
+- Applying **external CSS** for organized styling
+- Using `flex`, `flex-direction`, `justify-content`, and `align-items` effectively
 
 ---
 
@@ -23,36 +27,40 @@ The primary goal of this lab is to practice and implement **CSS Grid layout** fo
 
 You can view the lab task live using the link below:
 
-👉 [**View Lab Task 4**](https://rawcdn.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/e4c1dbdbe1402d40ba292aacacbb4601dfad2d1e/Lab_4/index.html)
+👉 [**View Lab Task 3**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_3/index.html#)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Semantic structure and accessibility
-- **CSS3** – Grid-based layout and advanced positioning using external stylesheet
+- **HTML5** – Semantic page structure
+- **CSS3** – Flexbox-based responsive styling using external stylesheet
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-
-Lab\_4/
+Lab_3/
 │
 ├── index.html              # Main HTML file
-├── style.css               # External CSS file with Grid and positioning styles
+├── style.css               # External CSS file with Flexbox styles
+├── task3-assets/           # Image and media assets
 └── README.md               # This file
-
 ```
 
 ---
 
 ## ✅ Task Requirements
 
-- Use **CSS Grid** only for layout (no float or flexbox)
-- Recreate the full structure of the given template using:
-  - Grid rows, columns, and areas
-  - Proper alignment and spacing
+- Use **Flexbox** only (no float or grid)
+- Convert all major sections of the given template into a working website
+- Maintain responsive behavior across screen sizes
+- Apply clean and well-organized CSS
+- Ensure semantic HTML practices
 
 ---
+
+## ✨ Outcome
+
+By completing this task, students will have practical experience in building a **modern responsive webpage** using **Flexbox**, strengthening their front-end layout skills and preparing them for advanced layout techniques in future labs.
