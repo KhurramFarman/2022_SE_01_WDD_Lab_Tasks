@@ -10,7 +10,7 @@ This repository contains **Lab Task 3** for the *Web Design and Development (WDD
 
 You can view the lab task live using the link below:
 
-👉 [**View Lab Task 5**](https://2022-se-01-wdd-lab-tasks-6-l88p.vercel.app)
+👉 [**View Lab Task 3**](https://2022-se-01-wdd-lab-tasks-6-l88p.vercel.app)
 
 ## 📝 Task Overview
 
@@ -28,16 +28,6 @@ The primary objective of this lab is to build a responsive web layout using **CS
   - Footer Section
 - Applying **external CSS** for organized styling
 - Using `flex`, `flex-direction`, `justify-content`, and `align-items` effectively
-
----
-
-## 🔗 Live Preview
-
-You can view the lab task live using the link below:
-
-👉 [**View Lab Task 3**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_3/index.html#)
-
----
 
 ## 🛠️ Technologies Used
 

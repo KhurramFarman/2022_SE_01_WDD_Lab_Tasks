@@ -2,6 +2,15 @@
 
 This repository contains **Lab Task 4** for the *Web Design and Development (WDD)* course. The task involves creating a a layout using **CSS Grid** with clean **HTML** and **CSS**.
 
+
+---
+
+## 🔗 Live Preview
+
+You can view the lab task live using the link below:
+
+👉 [**View Lab Task 4**](https://2022-se-01-wdd-lab-tasks-4cgh.vercel.app)
+
 ---
 
 ## 📝 Task Overview
@@ -16,16 +25,6 @@ The primary goal of this lab is to practice and implement **CSS Grid layout** fo
   - Template rows and columns
   - Grid areas, start/end lines, and gaps
 - Applying **external CSS** for modular and clean styling
-
----
-
-## 🔗 Live Preview
-
-You can view the lab task live using the link below:
-
-👉 [**View Lab Task 4**](https://2022-se-01-wdd-lab-tasks-4cgh.vercel.app)
-
----
 
 ## 🛠️ Technologies Used
 
