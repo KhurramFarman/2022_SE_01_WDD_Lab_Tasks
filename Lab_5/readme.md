@@ -5,6 +5,12 @@ This folder contains **Lab 5** for the Web Design and Development (WDD) course. 
 
 ---
 
+## 🔗 Live Preview
+
+You can view the lab task live using the link below:
+
+👉 [**View Lab Task 5**](https://2022-se-01-wdd-lab-tasks-6-l88p.vercel.app)
+
 ## 📝 Task Overview
 
 The goal of this lab is to rebuild the Client Ramp design as a responsive web page using only HTML and CSS. The layout is implemented with Flexbox utilities (no CSS Grid or floats) and includes the common landing-page sections: header/navigation, hero banner, feature/support blocks, product/plan cards, and a footer with social links.

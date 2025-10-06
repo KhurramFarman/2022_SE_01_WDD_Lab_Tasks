@@ -23,7 +23,7 @@ The primary goal of this lab is to practice and implement **CSS Grid layout** fo
 
 You can view the lab task live using the link below:
 
-👉 [**View Lab Task 4**](https://rawcdn.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/e4c1dbdbe1402d40ba292aacacbb4601dfad2d1e/Lab_4/index.html)
+👉 [**View Lab Task 4**](https://2022-se-01-wdd-lab-tasks-4cgh.vercel.app)
 
 ---
 

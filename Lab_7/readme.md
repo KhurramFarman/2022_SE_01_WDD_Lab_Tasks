@@ -4,6 +4,16 @@ This repository contains **Lab Task 7** for the *Web Design and Development (WDD
 
 ---
 
+---
+
+## 🔗 Live Preview
+
+You can view the lab task live using the link below:
+
+👉 [**View Lab Task 7**](https://2022-se-01-wdd-lab-tasks-unmk.vercel.app)
+
+---
+
 ## 📝 Task Overview
 
 The primary goal of this lab is to practice and implement responsive web design using Bootstrap framework. This task focuses on creating a fully functional e-commerce shop interface with modern UI/UX patterns.

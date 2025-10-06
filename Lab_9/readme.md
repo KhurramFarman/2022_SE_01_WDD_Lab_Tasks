@@ -22,7 +22,9 @@ The lab implements a registration form with client-side validation rules enforce
 
 ## 🔗 Live Preview
 
-Open `index.html` locally in a browser to try the form and see client-side validation behavior. The form posts to `submission.php` when validation passes.
+You can view the lab task live using the link below:
+
+👉 [**View Lab Task 9**](https://2022-se-01-wdd-lab-tasks-9-nmv4.vercel.app)
 
 ---
 

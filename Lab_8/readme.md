@@ -17,15 +17,15 @@
   - Applying inline styles and randomization for visual variation
   - Basic use of Font Awesome icons for UI affordances
 
-  ---
+---
 
-  ## 🔗 Live Preview
+## 🔗 Live Preview
 
-  Open the `index.html` file locally in a browser or preview via RawGitHack:
+You can view the lab task live using the link below:
 
-  👉 [**View Lab 8 (Blog Posts Demo)**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_8/index.html)
+👉 [**View Lab Task 8**](https://2022-se-01-wdd-lab-tasks-8-dt6d.vercel.app)
 
-  ---
+---
 
   ## 🛠️ Technologies Used
 

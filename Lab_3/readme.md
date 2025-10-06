@@ -4,6 +4,14 @@ This repository contains **Lab Task 3** for the *Web Design and Development (WDD
 
 ---
 
+---
+
+## 🔗 Live Preview
+
+You can view the lab task live using the link below:
+
+👉 [**View Lab Task 5**](https://2022-se-01-wdd-lab-tasks-6-l88p.vercel.app)
+
 ## 📝 Task Overview
 
 The primary objective of this lab is to build a responsive web layout using **CSS Flexbox**, based on the provided **Client Ramp design template**. This lab builds on the previous knowledge of float-based layouts by transitioning into more modern CSS layout techniques.
