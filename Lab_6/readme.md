@@ -5,6 +5,16 @@ This folder contains **Lab 6** for the Web Design and Development (WDD) course. 
 
 ---
 
+## 🔗 Live Preview
+
+Open the files locally in a browser or use RawGitHack to preview:
+
+👉 [**View Lab 6 – index.html**](https://deployments-wdd-waiting.vercel.app)
+
+👉 [**View Lab 6 – waiting.html**](https://deployments-wdd-bouncing.vercel.app)
+
+---
+
 ## 📝 Task Overview
 
 The aim of this lab is to explore CSS animations and transitions. The repository includes two HTML demos: an animated box that follows a multi-step motion path using `@keyframes`, and a simple waiting/loader-style animation composed of multiple animated circles centered with Flexbox.
@@ -17,17 +27,6 @@ The aim of this lab is to explore CSS animations and transitions. The repository
 - Centering and layout with Flexbox for animation containers
 - Building small, self-contained demos using only HTML and internal or external CSS
 
----
-
-## 🔗 Live Preview
-
-Open the files locally in a browser or use RawGitHack to preview:
-
-👉 [**View Lab 6 – index.html**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_6/index.html)
-
-👉 [**View Lab 6 – waiting.html**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_6/waiting.html)
-
----
 
 ## 🛠️ Technologies Used
 

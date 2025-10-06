@@ -4,6 +4,14 @@ This repository contains **Lab Task 2** for the *Web Design and Development (WDD
 
 ---
 
+## 🔗 Live Preview
+
+You can view the lab task live using the link below (powered by RawGitHack):
+
+👉 [**View Lab Task 2**](https://deployments-wdd-pp.vercel.app)
+
+---
+
 ## 📝 Task Overview
 
 The goal of this task is to design a visually appealing web page layout using **float positioning** in CSS. Additionally, simple **HTML forms** and enhanced styling techniques were introduced. This lab demonstrates:
@@ -13,14 +21,6 @@ The goal of this task is to design a visually appealing web page layout using **
 - Creating a basic **HTML form** (input fields, buttons)
 - Styling layouts using **internal CSS** only
 - Using margins, paddings, borders, and button styling
-
----
-
-## 🔗 Live Preview
-
-You can view the lab task live using the link below (powered by RawGitHack):
-
-👉 [**View Lab Task 2**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_2/Lab_Task_2.html)
 
 ---
 
