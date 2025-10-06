@@ -8,7 +8,7 @@ This folder contains a cloned frontend of the Gemini UI implemented with React a
 
 You can view the lab task live using the link below (powered by RawGitHack):
 
-👉 [**View OEL**](https://gemini-clone-inqlx054q-sardar-khurrams-projects.vercel.app)
+👉 [**View OEL**](https://gemini-clone-mauve-psi.vercel.app)
 
 ---
 
