@@ -102,7 +102,7 @@
                     <!-- Brand Logo -->
                     <div class="col-md-2">
                         <div class="brand-logo">
-                            <img src="/assets/images/logo (1).png" alt="">
+                            <img src="assets/images/logo.png" alt="">
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@
                                         <li><a class="dropdown-item" href="#">Books</a></li>
                                     </ul>
                                 </div>
-                                
+
 
                                 <div class="separater">
                                     <!-- separater -->
@@ -195,7 +195,7 @@
                             <a class="nav-link dropdown-toggle d-flex align-items-center mega-menu-link" href="#"
                                 role="button">
                                 MEGA MENU
-                                <span class="badge new-badge ms-2">NEW</span>
+                                <!-- <span class="badge new-badge ms-2">NEW</span> -->
                             </a>
                             <div class="dropdown-menu mega-menu">
                                 <div class="container">
@@ -323,7 +323,7 @@
                             <div class="dropdown hover-dropdown">
                                 <a href="#" class="nav-link dropdown-toggle d-flex align-items-center">
                                     MEGA MENU
-                                    <span class="badge new-badge ms-2">NEW</span>
+                                    <!-- <span class="badge new-badge ms-2">NEW</span> -->
                                 </a>
                                 <div class="dropdown-menu mega-menu">
                                     <div class="container">
@@ -393,9 +393,9 @@
                     <!-- Right Side - Search Icon and Cart Icons -->
                     <div class="scroll-nav-actions d-flex align-items-center gap-3">
                         <!-- Search Icon -->
-                        <a href="#" class="action-icon">
+                        <!-- <a href="#" class="action-icon">
                             <i class="fas fa-search fs-5"></i>
-                        </a>
+                        </a> -->
 
                         <!-- Wishlist Icon -->
                         <div class="action-icon position-relative">
@@ -597,397 +597,324 @@
         <!-- Side bar -->
     </header>
 
-    <!-- Links section -->
-    <section class="linkSection d-flex align-items-center">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
         <div class="container">
-            <div class="links">
-                <a href="#" class="link-item home-link">
-                    Home
-                </a>
-                <span class="separator">/</span>
-                <span class="link-item shop-link">
-                    Shop
-                </span>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Shop Heading -->
+        <div class="row">
+            <div class="pro-heading-title">
+                <h1>Shop Page</h1>
             </div>
         </div>
-    </section>
 
-    <main class="container">
-        <section class="pro-content shop-content shop-special">
-            <div class="container">
-                <div class="row">
-                    <div class="pro-heading-title">
-                        <h1>Shop Page</h1>
-                    </div>
+        <!-- Top Filter Bar -->
+        <div class="top-bar2">
+            <!-- Left: Display icons -->
+            <div class="d-flex align-items-center">
+                <label>Display</label>
+                <div class="display-icons">
+                    <a href="javascript:void(0);" class="fas fa-th-large active"></a>
+                    <a href="javascript:void(0);" class="fas fa-list"></a>
                 </div>
-                
-                <div class="products-area">
-                    <div class="top-bar">
-                        <div class="row">
-                            <div class="col-12 col-lg-12">
-                                <div class="row align-items-center">
-                                    <!-- Display Options -->
-                                    <div class="col-12 col-lg-2">
-                                        <div class="block">
-                                            <label>Display</label>
-                                            <div class="buttons">
-                                                <a href="javascript:void(0);" id="grid_4column" class="fas fa-th-large active"></a>
-                                                <a href="javascript:void(0);" id="list_4column" class="fas fa-list"></a>
-                                            </div>
-                                        </div>
-                                    </div>
+            </div>
 
-                                    <!-- Filter Options -->
-                                    <div class="col-12 col-lg-6">
-                                        <form class="form-inline justify-content-center">
-                                            <div class="form-group">
-                                                <label>Category</label>
-                                                <div class="select-control">
-                                                    <select class="form-control">
-                                                        <option value="1">Necklace</option>
-                                                        <option value="2">Earrings</option>
-                                                        <option value="3">Crowns</option>
-                                                        <option value="4">Rings</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="form-group">
-                                                <label>Price</label>
-                                                <div class="select-control">
-                                                    <select class="form-control">
-                                                        <option value="1">$1001-$2500</option>
-                                                        <option value="2">$501-$1000</option>
-                                                        <option value="3">0-$500</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="form-group">
-                                                <label>Size</label>
-                                                <div class="select-control">
-                                                    <select class="form-control">
-                                                        <option value="1">Medium</option>
-                                                        <option value="2">Large</option>
-                                                        <option value="3">Small</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
+            <!-- Middle: Category / Price / Size -->
+            <div class="filter-group">
+                <div class="form-group">
+                    <label>Category</label>
+                    <select>
+                        <option>Necklace</option>
+                        <option>Earrings</option>
+                        <option>Crowns</option>
+                        <option>Rings</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Price</label>
+                    <select>
+                        <option>$1001-$2500</option>
+                        <option>$501-$1000</option>
+                        <option>0-$500</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Size</label>
+                    <select>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Small</option>
+                    </select>
+                </div>
+            </div>
 
-                                    <!-- Sort Options -->
-                                    <div class="col-12 col-lg-4">
-                                        <form class="form-inline justify-content-end">
-                                            <div class="form-group">
-                                                <label>Sort by</label>
-                                                <div class="select-control">
-                                                    <select class="form-control">
-                                                        <option selected="">Popular</option>
-                                                        <option value="1">Newest</option>
-                                                        <option value="2">Offers</option>
-                                                        <option value="3">Old</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="form-group">
-                                                <label>Items</label>
-                                                <div class="select-control">
-                                                    <select class="form-control">
-                                                        <option selected="">08</option>
-                                                        <option value="1">20</option>
-                                                        <option value="2">16</option>
-                                                        <option value="3">12</option>
-                                                        <option value="4">08</option>
-                                                        <option value="5">04</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Right: Sort & Items -->
+            <div class="filter-group">
+                <div class="form-group">
+                    <label>Sort by</label>
+                    <select>
+                        <option selected>Popular</option>
+                        <option>Newest</option>
+                        <option>Offers</option>
+                        <option>Old</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Items</label>
+                    <select>
+                        <option selected>08</option>
+                        <option>20</option>
+                        <option>16</option>
+                        <option>12</option>
+                        <option>04</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-thumb">
+                        <a href="product-page1.html">
+                            <span class="pro-image"><img src="assets/images/product_image_01.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/images/product_image_01_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
                     </div>
-
-                    <!-- Products Grid -->
-                    <div class="row">
-                        <div id="swap" class="col-12 col-sm-12">
-                            <div class="row">
-                                
-                                <!-- Product 1 -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="product">
-                                        <article>
-                                            <div class="pro-thumb pro-list-thumb">
-                                                <div class="pro-icons mobile-pro-icons d-lg-none d-xl-none">
-                                                    <a href="#" class="icon active swipe-to-top">
-                                                        <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <div class="icon swipe-to-top">
-                                                        <i class="fas fa-eye"></i>
-                                                    </div>
-                                                    <a href="#" class="icon swipe-to-top">
-                                                        <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                    </a>
-                                                </div>
-                                                
-                                                <a href="#">
-                                                    <span class="pro-image">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/333?text=Ring+1" alt="Product Image">
-                                                    </span>
-                                                    <span class="pro-image-hover swipe-to-top d-none d-lg-block d-xl-block">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/666?text=Ring+1+Hover" alt="Product Image">
-                                                    </span>
-                                                </a>
-                                                
-                                                <div class="pro-buttons d-none d-lg-block d-xl-block">
-                                                    <div class="pro-icons">
-                                                        <a href="#" class="icon active swipe-to-top">
-                                                            <i class="fas fa-heart"></i>
-                                                        </a>
-                                                        <div class="icon swipe-to-top">
-                                                            <i class="fas fa-eye"></i>
-                                                        </div>
-                                                        <a href="#" class="icon swipe-to-top">
-                                                            <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                        </a>
-                                                    </div>
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="pro-description">
-                                                <span class="pro-info">Ring Collection</span>
-                                                <h2 class="pro-title">
-                                                    <a href="#">Austrian Crystals Wedding Jewelry Ring</a>
-                                                </h2>
-                                                <div class="pro-price">
-                                                    <ins>$285</ins>
-                                                </div>
-                                                
-                                                <div class="list2">
-                                                    <div class="pro-options">
-                                                        <div class="color-selection">
-                                                            <h4>Color: <span>Silver</span></h4>
-                                                            <ul>
-                                                                <li class="active"><a class="green" href="javascript:void(0);"></a></li>
-                                                                <li><a class="red" href="javascript:void(0);"></a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="size-selection">
-                                                            <h4>Size: <span>28</span></h4>
-                                                            <ul>
-                                                                <li class="active"><a href="javascript:void(0);">28</a></li>
-                                                                <li><a href="javascript:void(0);">32</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="pro-mobile-buttons d-lg-none d-xl-none">
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-
-                                <!-- Product 2 -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="product">
-                                        <article>
-                                            <div class="pro-thumb pro-list-thumb">
-                                                <div class="pro-icons mobile-pro-icons d-lg-none d-xl-none">
-                                                    <a href="#" class="icon active swipe-to-top">
-                                                        <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <div class="icon swipe-to-top">
-                                                        <i class="fas fa-eye"></i>
-                                                    </div>
-                                                    <a href="#" class="icon swipe-to-top">
-                                                        <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                    </a>
-                                                </div>
-                                                
-                                                <div class="pro-tag">Sale</div>
-                                                <a href="#">
-                                                    <span class="pro-image">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/333?text=Earrings" alt="Product Image">
-                                                    </span>
-                                                    <span class="pro-image-hover swipe-to-top d-none d-lg-block d-xl-block">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/666?text=Earrings+Hover" alt="Product Image">
-                                                    </span>
-                                                </a>
-                                                
-                                                <div class="pro-buttons d-none d-lg-block d-xl-block">
-                                                    <div class="pro-icons">
-                                                        <a href="#" class="icon active swipe-to-top">
-                                                            <i class="fas fa-heart"></i>
-                                                        </a>
-                                                        <div class="icon swipe-to-top">
-                                                            <i class="fas fa-eye"></i>
-                                                        </div>
-                                                        <a href="#" class="icon swipe-to-top">
-                                                            <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                        </a>
-                                                    </div>
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="pro-description">
-                                                <span class="pro-info">Earrings</span>
-                                                <h2 class="pro-title">
-                                                    <a href="#">Crystal Water Drop Wedding Function Earrings</a>
-                                                </h2>
-                                                <div class="pro-price">
-                                                    <del>$450</del><ins>$285</ins>
-                                                </div>
-                                                
-                                                <div class="list2">
-                                                    <div class="pro-options">
-                                                        <div class="color-selection">
-                                                            <h4>Color: <span>Silver</span></h4>
-                                                            <ul>
-                                                                <li class="active"><a class="green" href="javascript:void(0);"></a></li>
-                                                                <li><a class="red" href="javascript:void(0);"></a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="size-selection">
-                                                            <h4>Size: <span>28</span></h4>
-                                                            <ul>
-                                                                <li class="active"><a href="javascript:void(0);">28</a></li>
-                                                                <li><a href="javascript:void(0);">32</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="pro-mobile-buttons d-lg-none d-xl-none">
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-
-                                <!-- Continue with products 3-8 following the same pattern... -->
-                                <!-- I'll add just a few more for brevity -->
-                                
-                                <!-- Product 3 -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="product">
-                                        <article>
-                                            <div class="pro-thumb pro-list-thumb">
-                                                <div class="pro-tag">Sale</div>
-                                                <a href="#">
-                                                    <span class="pro-image">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/333?text=Ring+2" alt="Product Image">
-                                                    </span>
-                                                </a>
-                                                <div class="pro-buttons d-none d-lg-block d-xl-block">
-                                                    <div class="pro-icons">
-                                                        <a href="#" class="icon active swipe-to-top">
-                                                            <i class="fas fa-heart"></i>
-                                                        </a>
-                                                        <div class="icon swipe-to-top">
-                                                            <i class="fas fa-eye"></i>
-                                                        </div>
-                                                        <a href="#" class="icon swipe-to-top">
-                                                            <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                        </a>
-                                                    </div>
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="pro-description">
-                                                <span class="pro-info">Ring Collection</span>
-                                                <h2 class="pro-title">
-                                                    <a href="#">Crystal Wedding And Engagement Function Rings</a>
-                                                </h2>
-                                                <div class="pro-price">
-                                                    <del>$120</del><ins>$85</ins>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-
-                                <!-- Product 4 -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="product">
-                                        <article>
-                                            <div class="pro-thumb pro-list-thumb">
-                                                <a href="#">
-                                                    <span class="pro-image">
-                                                        <img class="img-fluid" src="https://via.placeholder.com/300x300/f5f5f5/333?text=Ring+3" alt="Product Image">
-                                                    </span>
-                                                </a>
-                                                <div class="pro-buttons d-none d-lg-block d-xl-block">
-                                                    <div class="pro-icons">
-                                                        <a href="#" class="icon active swipe-to-top">
-                                                            <i class="fas fa-heart"></i>
-                                                        </a>
-                                                        <div class="icon swipe-to-top">
-                                                            <i class="fas fa-eye"></i>
-                                                        </div>
-                                                        <a href="#" class="icon swipe-to-top">
-                                                            <i class="fas fa-align-right" data-fa-transform="rotate-90"></i>
-                                                        </a>
-                                                    </div>
-                                                    <button type="button" class="btn btn-secondary btn-block swipe-to-top">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="pro-description">
-                                                <span class="pro-info">Rings</span>
-                                                <h2 class="pro-title">
-                                                    <a href="#">Women Wedding Zircon Engagement Ring</a>
-                                                </h2>
-                                                <div class="pro-price">
-                                                    <ins>$110</ins>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-
-                                <!-- Continue with remaining products... -->
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Pagination -->
-                    <div class="pagination justify-content-between">
-                        <label class="col-form-label">
-                            Showing 1–<span class="showing_record">1</span>&nbsp;of&nbsp;<span class="showing_total_record">23</span>&nbsp;results.
-                        </label>
-                        
-                        <div class="col-12 col-sm-6">
-                            <ol class="loader-page">
-                                <li class="loader-page-item">
-                                    <a href="#">
-                                        <i class="fa fa-angle-double-left" style="font-size:12px"></i>
-                                    </a>
-                                </li>
-                                <li class="loader-page-item"><a href="#">1</a></li>
-                                <li class="loader-page-item"><a href="#">2</a></li>
-                                <li class="loader-page-item"><a href="#">3</a></li>
-                                <li class="loader-page-item"><a href="#">4</a></li>
-                                <li class="loader-page-item">
-                                    <a href="#">
-                                        <i class="fa fa-angle-double-right" style="font-size:12px"></i>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Ring Collection</span>
+                        <h2 class="pro-title">
+                            <a href="product-page1.html">Austrian Crystals Wedding Ring</a>
+                        </h2>
+                        <div class="pro-price"><ins>$285</ins></div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-tag">Sale</div>
+                    <div class="pro-thumb">
+                        <a href="product-page2.html">
+                            <span class="pro-image"><img src="assets/images/product_image_02.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_02_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Earrings</span>
+                        <h2 class="pro-title">
+                            <a href="product-page2.html">Crystal Water Drop Earrings</a>
+                        </h2>
+                        <div class="pro-price"><del>$450</del><ins>$285</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-tag">Sale</div>
+                    <div class="pro-thumb">
+                        <a href="product-page3.html">
+                            <span class="pro-image"><img src="assets/images/product_image_03.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_03_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Necklace</span>
+                        <h2 class="pro-title">
+                            <a href="product-page3.html">Luxury Pearl Crystal Necklace</a>
+                        </h2>
+                        <div class="pro-price"><del>$600</del><ins>$420</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-thumb">
+                        <a href="product-page4.html">
+                            <span class="pro-image"><img src="assets/images/product_image_04.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_04_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Crowns</span>
+                        <h2 class="pro-title">
+                            <a href="product-page4.html">Golden Wedding Tiara Crown</a>
+                        </h2>
+                        <div class="pro-price"><ins>$350</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-thumb">
+                        <a href="product-page5.html">
+                            <span class="pro-image"><img src="assets/images/product_image_05.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_05_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Bracelet</span>
+                        <h2 class="pro-title">
+                            <a href="product-page5.html">Diamond Crystal Charm Bracelet</a>
+                        </h2>
+                        <div class="pro-price"><del>$200</del><ins>$150</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-tag" style="background-color: rgb(71, 154, 241)">
+                        NEW
+                    </div>
+                    <div class="pro-thumb">
+                        <a href="product-page6.html">
+                            <span class="pro-image"><img src="assets/images/product_image_06.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_06_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Anklet</span>
+                        <h2 class="pro-title">
+                            <a href="product-page6.html">Silver Crystal Wedding Anklet</a>
+                        </h2>
+                        <div class="pro-price"><ins>$175</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-tag" style="background-color: rgb(40, 167, 69)">
+                        FEATURE
+                    </div>
+                    <div class="pro-thumb">
+                        <a href="product-page7.html">
+                            <span class="pro-image"><img src="assets/images/product_image_07.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_07_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Ring</span>
+                        <h2 class="pro-title">
+                            <a href="product-page7.html">Royal Crystal Engagement Ring</a>
+                        </h2>
+                        <div class="pro-price"><del>$500</del><ins>$375</ins></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4" style="
+            width: 285px;
+            height: 458.266px;
+            padding-left: 9px;
+            padding-right: 9px;
+          ">
+                <div class="product">
+                    <div class="pro-tag" style="background-color: rgb(71, 154, 241)">
+                        NEW
+                    </div>
+                    <div class="pro-thumb">
+                        <a href="product-page8.html">
+                            <span class="pro-image"><img src="assets/images/product_image_08.jpg" alt="Product" /></span>
+                            <span class="pro-image-hover"><img src="assets/images/product_image_08_02.jpg"
+                                    alt="Product" /></span>
+                        </a>
+                    </div>
+                    <div class="pro-description">
+                        <span class="pro-info">Tiara</span>
+                        <h2 class="pro-title">
+                            <a href="product-page8.html">Crystal Queen Wedding Tiara</a>
+                        </h2>
+                        <div class="pro-price"><ins>$450</ins></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination justify-content-between">
+            <label class="col-form-label">Showing 1–<span class="showing_record">1</span>&nbsp;of&nbsp;<span
+                    class="showing_total_record">23</span>&nbsp;results.</label>
+            <div class="col-12 col-sm-6">
+                <ol class="loader-page">
+                    <li class="loader-page-item">
+                        <a href="#">
+                            <i class="fa fa-angle-double-left" style="font-size: 12px"></i></a>
+                    </li>
+                    <li class="loader-page-item"><a href="#">1</a></li>
+                    <li class="loader-page-item"><a href="#">2</a></li>
+                    <li class="loader-page-item"><a href="#">3</a></li>
+                    <li class="loader-page-item"><a href="#">4</a></li>
+                    <li class="loader-page-item">
+                        <a href="#">
+                            <i class="fa fa-angle-double-right" style="font-size: 12px"></i></a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -1064,7 +991,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
-    
+
 
     <!-- External JavaScript for Header Functionality -->
     <script src="assets/JS/script.js"></script>
