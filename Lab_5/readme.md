@@ -1,66 +1,50 @@
-# Lab Task 3 – Web Design and Development (WDD)
 
-This repository contains **Lab Task 3** for the *Web Design and Development (WDD)* course. The task involves converting a given **Client Ramp template** into a responsive website using **Flexbox layout only** with **HTML** and **CSS**.
+# Lab Task 5 – Web Design and Development (WDD)
+
+This folder contains **Lab 5** for the Web Design and Development (WDD) course. The lab is a conversion/implementation of the **Client Ramp** landing page template into a responsive website using semantic HTML and CSS (Flexbox-based layout).
 
 ---
 
 ## 📝 Task Overview
 
-The primary objective of this lab is to build a responsive web layout using **CSS Flexbox**, based on the provided **Client Ramp design template**. This lab builds on the previous knowledge of float-based layouts by transitioning into more modern CSS layout techniques.
+The goal of this lab is to rebuild the Client Ramp design as a responsive web page using only HTML and CSS. The layout is implemented with Flexbox utilities (no CSS Grid or floats) and includes the common landing-page sections: header/navigation, hero banner, feature/support blocks, product/plan cards, and a footer with social links.
 
 ### Key Concepts Covered:
 
-- Structuring a webpage using **Flexbox layout** (no float/grid)
-- Recreating the Client Ramp layout using semantic HTML elements
-- Designing responsive sections such as:
-  - Header and Navigation Bar
-  - Hero Section
-  - Support Section
-  - Subscription Plans Section
-  - Footer Section
-- Applying **external CSS** for organized styling
-- Using `flex`, `flex-direction`, `justify-content`, and `align-items` effectively
-
----
-
-## 🔗 Live Preview
-
-You can view the lab task live using the link below:
-
-👉 [**View Lab Task 3**](https://raw.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/main/Lab_3/index.html#)
-
----
+- Structuring the page with semantic HTML5 elements (header, nav, main, section, footer)
+- Building responsive layouts using **CSS Flexbox** (flex containers, direction, alignment, wrapping)
+- Organizing styles in an external stylesheet (`style.css`)
+- Using optimized image assets from the `task3-assets/` directory
+- Accessibility basics: meaningful alt text, clear navigation, and readable contrast
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Semantic page structure
-- **CSS3** – Flexbox-based responsive styling using external stylesheet
+- **HTML5** — Semantic structure and content
+- **CSS3** — Styling and responsive layout using Flexbox
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-Lab_3/
-│
-├── index.html              # Main HTML file
-├── style.css               # External CSS file with Flexbox styles
-├── task3-assets/           # Image and media assets
-└── README.md               # This file
+Lab_5/
+├── index.html              # Main HTML file (landing page)
+├── style.css               # External stylesheet using Flexbox
+├── readme.md               # This file
+└── task3-assets/           # Image and icon assets used in the 
 ```
 
 ---
 
 ## ✅ Task Requirements
 
-- Use **Flexbox** only (no float or grid)
-- Convert all major sections of the given template into a working website
-- Maintain responsive behavior across screen sizes
-- Apply clean and well-organized CSS
-- Ensure semantic HTML practices
+- Recreate the major sections of the Client Ramp template using semantic HTML
+- Ensure responsive behavior across common screen sizes (mobile → desktop)
+- Keep styles in `style.css` and assets in `task3-assets/`
+- Provide meaningful image alt text and a usable navigation
 
 ---
 
 ## ✨ Outcome
 
-By completing this task, students will have practical experience in building a **modern responsive webpage** using **Flexbox**, strengthening their front-end layout skills and preparing them for advanced layout techniques in future labs.
+Completing this lab results in a responsive, semantic implementation of the Client Ramp landing page. The project demonstrates practical Flexbox skills, asset management, and an externally organized stylesheet. The page is ready to be opened locally (`index.html`) and reviewed in the browser for responsive behavior.

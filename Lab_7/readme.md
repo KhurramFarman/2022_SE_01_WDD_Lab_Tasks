@@ -1,58 +1,65 @@
-# Lab Task 4 – Web Design and Development (WDD)
+# Lab Task 7 – Web Design and Development (WDD)
 
-This repository contains **Lab Task 4** for the *Web Design and Development (WDD)* course. The task involves creating a a layout using **CSS Grid** with clean **HTML** and **CSS**.
+This repository contains **Lab Task 7** for the *Web Design and Development (WDD)* course. The task involves creating a responsive e-commerce shop page called **Katora** using **Bootstrap 5**, **CSS**, and **JavaScript**.
 
 ---
 
 ## 📝 Task Overview
 
-The primary goal of this lab is to practice and implement **CSS Grid layout** for precise and responsive page design. This task expands upon the knowledge gained from Flexbox by introducing **2D layout structures** and more advanced layout control.
+The primary goal of this lab is to practice and implement responsive web design using Bootstrap framework. This task focuses on creating a fully functional e-commerce shop interface with modern UI/UX patterns.
 
 ### Key Concepts Covered:
 
-- Structuring a web layout using **CSS Grid**
-- Creating responsive layouts by combining:
-  - Grid containers and grid items
-  - Template rows and columns
-  - Grid areas, start/end lines, and gaps
-- Applying **external CSS** for modular and clean styling
-
----
-
-## 🔗 Live Preview
-
-You can view the lab task live using the link below:
-
-👉 [**View Lab Task 4**](https://rawcdn.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/e4c1dbdbe1402d40ba292aacacbb4601dfad2d1e/Lab_4/index.html)
-
----
+- Building responsive layouts using **Bootstrap 5 Grid System**
+- Creating multi-level navigation with:
+  - Top, middle, and bottom navigation bars
+  - Dropdown menus and mega menu
+  - Mobile sidebar navigation
+- Implementing interactive features:
+  - Product grid with hover effects
+  - Filtering and sorting system
+  - Floating scroll navigation
+- Applying **external CSS** and **JavaScript** for custom styling and functionality
 
 ## 🛠️ Technologies Used
 
 - **HTML5** – Semantic structure and accessibility
-- **CSS3** – Grid-based layout and advanced positioning using external stylesheet
+- **CSS3** – Custom styling and animations using external stylesheet
+- **Bootstrap 5** – Responsive grid system and components
+- **JavaScript** – Interactive functionality and DOM manipulation
+- **Font Awesome** – Icon library
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-
-Lab\_4/
+Lab_7/
 │
 ├── index.html              # Main HTML file
-├── style.css               # External CSS file with Grid and positioning styles
+├── assets/
+│   ├── CSS/
+│   │   └── style.css       # External CSS file with custom styles
+│   ├── JS/
+│   │   └── script.js       # JavaScript for interactive features
+│   └── images/             # Product images and assets
 └── README.md               # This file
-
 ```
 
 ---
 
 ## ✅ Task Requirements
 
-- Use **CSS Grid** only for layout (no float or flexbox)
-- Recreate the full structure of the given template using:
-  - Grid rows, columns, and areas
-  - Proper alignment and spacing
+- Use **Bootstrap 5** for responsive layout and components
+- Implement multi-level navigation system with:
+  - Responsive top, middle, and bottom navigation
+  - Mobile hamburger menu with sidebar
+  - Floating navigation on scroll
+- Create product grid with:
+  - Product cards with images and details
+  - Hover effects and interactive elements
+  - Sale tags and color options
+- Add filter and sort functionality
+- Ensure full mobile responsiveness
 
 ---

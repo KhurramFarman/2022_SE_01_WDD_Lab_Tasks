@@ -1,58 +1,77 @@
-# Lab Task 4 – Web Design and Development (WDD)
+  # Lab 12 – Student Management (CRUD) – Web Development
 
-This repository contains **Lab Task 4** for the *Web Design and Development (WDD)* course. The task involves creating a a layout using **CSS Grid** with clean **HTML** and **CSS**.
+  This folder contains **Lab 12**, a small student management CRUD application built with plain PHP and MySQL. The app demonstrates basic database operations: creating, reading, updating, and deleting student records.
 
----
+  ---
 
-## 📝 Task Overview
+  ## 📝 Task Overview
 
-The primary goal of this lab is to practice and implement **CSS Grid layout** for precise and responsive page design. This task expands upon the knowledge gained from Flexbox by introducing **2D layout structures** and more advanced layout control.
+  The lab implements a minimal student management interface with server-side PHP and a MySQL database. The UI is a simple, accessible set of pages that allow adding new students, editing existing ones, listing all students, and deleting records.
 
-### Key Concepts Covered:
+  ### Key Concepts Covered:
 
-- Structuring a web layout using **CSS Grid**
-- Creating responsive layouts by combining:
-  - Grid containers and grid items
-  - Template rows and columns
-  - Grid areas, start/end lines, and gaps
-- Applying **external CSS** for modular and clean styling
+  - Connecting to MySQL from PHP (`db.php`)
+  - Prepared statements for INSERT, UPDATE and DELETE to avoid SQL injection
+  - Simple routing between `index.php` (list) and `form.php` (create/edit)
+  - Rendering server-side data into HTML safely with `htmlspecialchars`
 
----
+  ---
 
-## 🔗 Live Preview
+  ## 🔗 Live Preview / How to run locally
 
-You can view the lab task live using the link below:
+  1. Ensure you have PHP and MySQL installed.
+  2. Import the provided `SMS.sql` into your MySQL server to create the `SMS` database and `students` table.
+  3. Start a PHP server from this folder or use your web server (Apache / Nginx + PHP).
 
-👉 [**View Lab Task 4**](https://rawcdn.githack.com/KhurramFarman/2022_SE_01_WDD_Lab_Tasks/e4c1dbdbe1402d40ba292aacacbb4601dfad2d1e/Lab_4/index.html)
+     Example using PHP built-in server (PowerShell):
 
----
+  ```powershell
+  cd "e:\Semester 6\Web Design and Development\Lab\lab_11"
+  php -S localhost:8000
+  ```
 
-## 🛠️ Technologies Used
+  Then open http://localhost:8000/index.php in a browser.
 
-- **HTML5** – Semantic structure and accessibility
-- **CSS3** – Grid-based layout and advanced positioning using external stylesheet
+  The default DB connection in `db.php` points to:
+  - host: `localhost`
+  - user: `root`
+  - password: (empty string)
+  - database: `SMS`
 
----
+  Adjust `db.php` if your MySQL credentials differ.
 
-## 📁 Folder Structure
+  ---
 
-```
+  ## 🛠️ Technologies Used
 
-Lab\_4/
-│
-├── index.html              # Main HTML file
-├── style.css               # External CSS file with Grid and positioning styles
-└── README.md               # This file
+  - **PHP** — Server-side logic for CRUD operations
+  - **MySQL** — Database (schema in `SMS.sql`)
+  - **HTML/CSS** — Simple styling baked into the PHP pages
 
-```
+  ---
 
----
+  ## 📁 Folder Structure
 
-## ✅ Task Requirements
+  ```
+  lab_12/
+  ├── index.php        # Lists students and provides delete link
+  ├── form.php         # Create / Edit student form and POST handler
+  ├── db.php           # MySQL connection (update credentials if needed)
+  ├── SMS.sql          # SQL dump: database + students table
+  └── readme.md        # This file
+  ```
 
-- Use **CSS Grid** only for layout (no float or flexbox)
-- Recreate the full structure of the given template using:
-  - Grid rows, columns, and areas
-  - Proper alignment and spacing
+  ---
 
----
+  ## ✅ Task Requirements
+
+  - Implement create, read, update, delete functionality for student records
+  - Use prepared statements for database writes (INSERT/UPDATE/DELETE)
+  - Display records in a simple table with actions to edit or delete
+  - Provide a single form (`form.php`) that handles both create and update based on the presence of an `id` query parameter
+
+  ---
+
+  ## ✨ Outcome
+
+  This lab produces a working, minimal student management application suitable for learning server-side CRUD patterns in PHP and working with a relational database. It's intentionally small and focused so you can extend it (validation, pagination, authentication) in future exercises.
